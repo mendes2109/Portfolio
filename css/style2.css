@@ -1,3 +1,5 @@
+/* CSS linkado na página de certificações */
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--cor04), var(--cor01));
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor01))
 }
 
 /* Cabeçalho e barra de navegação */
@@ -35,7 +37,7 @@ nav{
     padding: 5px 10px;
 }
 
-nav > ul > li{
+li{
     display: inline;
     padding: 1px 0;
 }
@@ -53,41 +55,26 @@ nav > ul > li > a:hover{
 }
 
 /* Conteúdo do site */
+main > h1{
+    padding: 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
 main{
     margin: auto;
     padding: 20px;
     max-width: 850px;
     color: rgb(245, 245, 245);
 }
-
-main > h1{
-    padding: 25px 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-main > h2{
-    padding: 25px 0;
-}
-
-main > ul > li{
-    padding: 4px 0;
-}
-
-
 main > p{
     line-height: 1.8em;
     text-indent: 2em;
-    padding: 1.3em 0;
+    padding-bottom: 1.5em;
 }
 
 main > p > a{
     color: white;
     font-weight: bolder;
-}
-main > ul > li > a{
-    color: lightgray;
-    font-weight: bold;
-    
 }
 
 img{
@@ -111,5 +98,5 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 56px;
+    margin-top: 20px;
 }

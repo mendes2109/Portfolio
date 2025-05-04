@@ -1,0 +1,93 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+/* header */
+header{
+    min-height: 125px;
+    padding-top: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1{
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    font-family: 'Passion One', cursive;
+    font-size: 3em;
+}
+header > h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Conteúdo */
+
+p{
+    font-family: 'Sriracha', cursive;
+    font-weight: 100;
+    font-size: 1.4em;
+    width: 300px;
+    margin: 10vh 20px;
+    line-height: 2.3em;
+}
+
+.imagefundo > p{
+    padding: 10px 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.imagefundo{
+    padding: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+#flor{
+    background-image: url(../image/background001.jpg);}
+#carta{
+    background-image: url(../image/background002.jpg);
+}
+
+/* rodapé */
+footer{
+    padding: 10px;
+    background-color: #000;
+}
+footer > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;
+    color: white;
+    margin: 0;
+    text-align: center;
+    width: auto;
+    font-size: medium;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
