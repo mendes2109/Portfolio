@@ -52,7 +52,7 @@ nav > ul > li > a:hover{
     transition: .3s;
 }
 
-/* Conteúdo do site */
+/* Conteúdo do site - Main */
 main{
     margin: auto;
     padding: 20px;
@@ -73,7 +73,7 @@ main > ul > li{
     padding: 4px 0;
 }
 
-
+/* Links no Main */
 main > p{
     line-height: 1.8em;
     text-indent: 2em;
@@ -84,19 +84,32 @@ main > p > a{
     color: white;
     font-weight: bolder;
 }
+
+main > address > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+main > address > a:hover{
+    font-size: 1.1em;
+}
+
 main > ul > li > a{
     color: lightgray;
     font-weight: bold;
     
 }
 
-img{
-    width: 96%;
+/* Imagens */
+img#escola{
+    width: 95%;
     border: 1px solid black;
     border-radius: 8px;
     margin: 20px 0;
 }
 
+/* Iframes */
 iframe{
     width: 100%;
     height: 30em;
